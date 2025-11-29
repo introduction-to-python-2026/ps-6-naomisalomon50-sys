@@ -1,6 +1,10 @@
 def create_codon_dict(file_path):
     pass # Replace the pass with your code
 
+file_path = "data/codons.txt"
+file = open(file_path, "r")
+rows = file.readlines()
+file.close()
 
 dict = {}
 split_row = []
